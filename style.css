@@ -1,5 +1,9 @@
 body {
     background: rgb(175, 180, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -15,6 +19,11 @@ main {
 .middle {
     background: white;
     height: 120px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
 }
 .bottom {
 
@@ -23,13 +32,12 @@ main {
 
 }
 .hello {
-    font-size: 3rem;
+    font-size: 3.4rem;
+     line-height: 130%;
 }
 .my-name-is {
     font-size: 2rem;
+
+
 };
 
-.name {
-    font-size: 1.5rem;
-    text-align: left;
-}
