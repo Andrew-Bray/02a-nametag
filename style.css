@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
@@ -43,7 +44,10 @@ main {
 .my-name-is {
     font-size: 2rem;
     color: white;
+}
+.belowtag {
+    justify-content: center;
+    align-items: center;
+}
 
-
-};
 
